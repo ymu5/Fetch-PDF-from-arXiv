@@ -42,11 +42,11 @@ Example: ```$[User] myDownload.py --search cnn --titleasname True```
 ## UnitTest
 There are 3 unit tests.
 
-#### 1, When number of download file is 0 
+#### Test Case 1, When number of download file is 0 
 Check if exception raised when the input number of file is 0.
 
-#### 2, Compare the download speed for ten files and one file when number of thread is set to 1
+#### Test Case 2, Compare the download speed for ten files and one file when number of thread is set to 1
 Error message occured when the download speed for one file is slower than that of ten files.
 
-#### 3, Compare the download speed for ten files when thread is set to 1 and 10, respectively.
+#### Test Case 3, Compare the download speed for ten files when thread is set to 1 and 10, respectively.
 Error message occured when the download speed for ten threads is slower than that of one file.

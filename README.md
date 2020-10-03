@@ -6,4 +6,5 @@ urllib, click, feedparser, logging, ssl
 
 to install click, use ```pip install click```
 
+## Command lines
 This program enable 5 command line options 

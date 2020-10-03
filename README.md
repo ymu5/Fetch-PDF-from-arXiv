@@ -11,4 +11,5 @@ To install feedparser, use ```pip install click```. For more information, please
 
 ## Command lines
 This program enable 5 command line options
-####  --search TEXT 
+####  1, --search TEXT 
+This command allows the users to input for a searching keyword, only one word is allowed

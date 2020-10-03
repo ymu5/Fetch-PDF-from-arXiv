@@ -75,7 +75,7 @@ def fetch_pdfs(url_links, num_workers):
 # Implement Click API to create a customize command line option --Search TEXT
 # --Search TEXT allows the users to type in <1> keyword they want, and download <1> related article using arXiv API.
 @click.command()
-@click.option('--search', default = 'Ecomony', help='Only one input letter is allowed [Default = Economy] ')
+@click.option('--search', default = 'Ecomony', help='Only one word is allowed [Default = Economy] ')
 @click.option('--thread', default = 3, help = 'Allow the user to input the max number of Threads [Optional][Default = 3')
 @click.option('--jobs', default = 1, help = 'Allow the user to input the max number of Files [Optional][Default] = 3')
 @click.option('--titleasname', default = False, type = bool, help = 'Use article title as file name[Optional][Default = False, use True to enable]')

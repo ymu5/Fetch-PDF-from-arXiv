@@ -12,9 +12,29 @@ To install feedparser, use ```pip install click```. For more information, please
 ## Command lines
 This program enable 5 command line options
 ####  1, --help 
-This command allows the users to check on avaiable command lines\
+This command allows the users to check on avaiable command lines, and display them in the terminal\
 Example: ```$[User] myDownload.py --help```
 
 ####  2, --search TEXT 
-This command allows the users to input for a searching keyword, only one word is allowed\
-Example: ```$[User] myDownload.py --search cnn```
+This command allows the users to input for a searching keyword, only one word is allowed.\
+Default searching keyword is set to "Economy".\
+Example: ```$[User] myDownload.py --search cnn```\
+
+####  3, --thread TEXT 
+This command allows the users to input the max number of threads to download files.\
+Default number of threads is set to 3
+Example: ```$[User] myDownload.py --search cnn --thread 5```\
+This command allows the users to download default number of files in 5 threads with keyword "cnn"
+
+####  4, --jobs TEXT 
+This command allows the users to input the max number of files to download .\
+Default number of files is set to 1
+Example: ```$[User] myDownload.py --search cnn --thread 5 --jobs 10```
+This command allows the users to download 10 files in 5 threads with keyword "cnn"
+
+####  5, --titleasname BOOLEAN 
+This command allows the users to download the files with their titles as names rather than their arXiv IDs .\
+Example Download File Name: With --titleasname command: **Economy.pdf**, without --titleasname command: **1604.03265v2.pdf**
+Default boolean value is set to **False**. To enable this command, please set boolean value to **True**
+Example: ```$[User] myDownload.py --search cnn --titleasname True```
+

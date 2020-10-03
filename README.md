@@ -21,7 +21,7 @@ This command allows the users to input for a searching keyword, only one word is
 Default searching keyword is set to "Economy".\
 Example: ```$[User] myDownload.py --search cnn```
 
-####  3, --thread TEXT 
+####  3, --thread TEXT [Optionl]
 This command allows the users to input the max number of threads to download files.\
 Default number of threads is set to 3
 Example: ```$[User] myDownload.py --search cnn --thread 5```\

@@ -10,4 +10,5 @@ For more information on **virtuallenv**, please check the official documenet: [v
 To install feedparser, use ```pip install click```. For more information, please check the official document:[feedparser](https://pypi.org/project/feedparser/)
 
 ## Command lines
-This program enable 5 command line options 
+This program enable 5 command line options
+####  --search TEXT 

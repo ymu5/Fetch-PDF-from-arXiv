@@ -35,7 +35,7 @@ This command allows the users to download 10 files in 5 threads with keyword "cn
 
 ####  5, --titleasname BOOLEAN [Optional]
 This command allows the users to download the files with their titles as names rather than their arXiv IDs .\
-Example Download File Name: With --titleasname command: **Economy.pdf**, without --titleasname command: **1604.03265v2.pdf**
+Example Download File Name: With --titleasname command: **Economy.pdf**, without --titleasname command: **1604.03265v2.pdf** \
 Default boolean value is set to **False**. \
 To enable this command, please set boolean value to **True**
 Example: ```$[User] myDownload.py --search cnn --titleasname True```
